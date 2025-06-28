@@ -3,7 +3,6 @@ package pocket_reader
 import (
 	"context"
 	"fmt"
-	"github.com/hugoshaka/pocket-to-pinboard/pkg/common"
 	"log"
 	"net/http"
 	"net/http/httptest"
@@ -11,6 +10,8 @@ import (
 
 	pocketapi "github.com/motemen/go-pocket/api"
 	pocketauth "github.com/motemen/go-pocket/auth"
+
+	"github.com/hugoshaka/pocket-to-pinboard/pkg/common"
 )
 
 func Read(ctx context.Context, consumerKey string) (common.Articles, error) {

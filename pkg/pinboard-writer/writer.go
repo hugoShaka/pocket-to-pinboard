@@ -4,8 +4,10 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/hugoshaka/pocket-to-pinboard/pkg/common"
+
 	"github.com/imwally/pinboard"
+
+	"github.com/hugoshaka/pocket-to-pinboard/pkg/common"
 )
 
 func Write(ctx context.Context, articles common.Articles, apiKey string) error {

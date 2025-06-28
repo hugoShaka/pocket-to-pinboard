@@ -3,8 +3,10 @@ package main
 import (
 	"context"
 	"fmt"
-	pocket_reader "github.com/hugoshaka/pocket-to-pinboard/pkg/pocket-reader"
+
 	"github.com/spf13/cobra"
+
+	pocket_reader "github.com/hugoshaka/pocket-to-pinboard/pkg/pocket-reader"
 )
 
 func NewReadPocketCommand(ctx context.Context) (*cobra.Command, error) {

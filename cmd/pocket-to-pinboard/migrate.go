@@ -3,9 +3,11 @@ package main
 import (
 	"context"
 	"fmt"
+
+	"github.com/spf13/cobra"
+
 	pinboard_writer "github.com/hugoshaka/pocket-to-pinboard/pkg/pinboard-writer"
 	pocket_reader "github.com/hugoshaka/pocket-to-pinboard/pkg/pocket-reader"
-	"github.com/spf13/cobra"
 )
 
 func NewMigrateCommand(ctx context.Context) (*cobra.Command, error) {

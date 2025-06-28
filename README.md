@@ -19,3 +19,9 @@ Or create a new one here: https://getpocket.com/developer/apps/new
 ```shell
 go run ./cmd/pocket-to-pinboard/ migrate --pinboard-api-key "<pinboardName>:<random part>" --pocket-consumer-key "<key>"
 ```
+
+### Lint
+
+```shell
+gci write -s standard -s default -s localmodule ./
+```
